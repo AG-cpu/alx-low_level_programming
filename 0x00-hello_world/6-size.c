@@ -8,7 +8,12 @@
 
 int main(void)
 {
-printf("Size of a char: 1 byte(s)\nSize of an int: 4 byte(s)\nSize of a long int: 4 byte(s)\nSize of a long long int: 8 byte(s)\nSize of a float: 4 byte(s)\n");
+printf("Size of a char: %ld bytes\n", sizeof(char));
+printf("Size of a int: %ld bytes\n", sizeof(int));
+printf("Size of a long int: %ld bytes\n", sizeof(long));
+printf("Size of a long long int: %ld bytes\n", sizeof(double));
+printf("Size of a float: %ld bytes\n", sizeof(float));
+ 
 return (0);
 }
 
