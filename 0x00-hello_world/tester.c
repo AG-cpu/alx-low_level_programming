@@ -2,11 +2,15 @@
 
 /**
  * main - Entry point
- * qwertyui
+ *
  * Return: Always 0 (Success)
  */
+const char* myName() {
+  char *name = "Flavio";
+  return name;
+}
 int main(void)
 {
-	printf("Holberton School");
-	return (0);
+return (1);
 }
+
