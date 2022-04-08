@@ -15,5 +15,6 @@
 	{
 	putchar(che);
 	}
+	putchar('\n');
 	return (0);
 }
