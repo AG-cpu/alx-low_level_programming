@@ -7,15 +7,15 @@
 *
 * Return: Always 0 (Success)
 */
-        int main(void)
-{
+	int main(void)
+	{
 	int che;
 
 	for (che = 'a'; che <= 'z'; che++)
 	{
 	putchar(che);
 	}
-	for (che = ‘A’; che <= ‘Z’; che++)
+	for (che = 'A'; che <= 'Z'; che++)
 	{
 	putchar(che);
 	}
