@@ -9,12 +9,12 @@
 */
 	int main(void)
 {
-	
-	int i;
-	for ( i = 0; i < 10; i++ ) 
+	int che;
+
+	for (che = '0'; che <= '9'; che++)
 	{
- 	printf( "%d", i);
- 	}
-	printf( "\n");
-	return (0);
+	putchar(che);
 	}
+	putchar('\n');
+	return (0);
+}
