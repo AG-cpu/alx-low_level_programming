@@ -15,7 +15,7 @@
 {
 	putchar((com % 10) + '0');
 	if (com == 9)
-		continue;		
+	continue;
 	putchar(',');
 	putchar(' ');
 	}
