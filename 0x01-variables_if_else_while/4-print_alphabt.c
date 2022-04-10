@@ -8,20 +8,15 @@
 * Return: Always 0 (Success)
 */
 	int main(void)
-	{
-	int che;
+{
+	char l;
 
-	che = 'a';
-
-	for (che != 'q'; che <= 'z'; che++)
-	{
-	putchar(che);
-	}
-	for (che != 'e'; che <= 'Z'; che++)
-	{
-	putchar(che);
-	}
+	for (l = 'a'; l <= 'z'; l++)
+{
+	if (l != 'e' && l != 'q')
+	putchar(l);
+}
 	putchar('\n');
+
 	return (0);
 }
-
