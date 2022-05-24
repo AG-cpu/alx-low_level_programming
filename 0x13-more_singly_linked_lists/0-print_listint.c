@@ -3,8 +3,7 @@
 
 /**
  * print_listint - listint_t list.
- * @h: the list head pointer.
- * @n: newest elmnt
+ * @h: A pointer the list head pointer.
  * Return: The number of nodes to list.
  */
 size_t print_listint(const listint_t *h)
