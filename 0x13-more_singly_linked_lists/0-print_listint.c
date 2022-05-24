@@ -3,7 +3,7 @@
 
 /**
  * print_listint - the list elmnt cat.
- * @h: the list head pointer.
+ * the list head pointer.
  * Return: The list nodes numb.
  */
 
