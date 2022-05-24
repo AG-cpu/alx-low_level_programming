@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_listint - listint_t list.
+ * print_listint - the list elmnt cat.
  * @h: the list head pointer.
- * Return: The number of nodes to list.
+ * Return: The list nodes numb.
  */
 
 size_t print_listint(const listint_t *h)
