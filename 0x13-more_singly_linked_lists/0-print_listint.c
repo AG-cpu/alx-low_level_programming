@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *  - the list elmnt cat.
+ * print_listint - the list elmnts.
  * @h: the list head pointer.
  * Return: The list nodes numb.
  */
