@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * listint_len - record linked listint_t list elmnts num .
+ * lisint_len - record linked listint_t list elmnts num .
  * @h: the list head pointer.
  * Return: The num of list elmnts.
  */
